@@ -1,0 +1,10 @@
+.fullscreen-header-container {
+    width: 600px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: start;
+    font-family: Arial;
+    color: #CFCFCF;
+}

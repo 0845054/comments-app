@@ -1,0 +1,29 @@
+/*
+Color scheme
+
+black - #040404
+blue ribbon - #0443F2
+Malibu - #54CBFB
+Alto - #CFCFCF
+
+*/
+
+.App {
+  text-align: center;
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-image: linear-gradient(to bottom right, #040404, #0443F2,#CFCFCF);
+  justify-content: space-evenly;
+}
+
+@media  (max-width: 1200px) {
+  .App {
+    flex-direction: column;
+    background-color: red;
+  }
+}

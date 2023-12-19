@@ -1,0 +1,15 @@
+.card-container {
+    background-color: aliceblue;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px black;
+    text-align: start;
+}
+
+.card-header {
+    padding: 10px;
+}
+
+.card-body{
+    padding: 10px;
+}
