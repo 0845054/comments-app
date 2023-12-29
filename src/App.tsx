@@ -35,10 +35,12 @@ function App() {
       .catch((err) => console.log(err))
   }, [])
 
+  const backgroundImage = screenSize.width > 1200 ? "linear-gradient(to bottom right, #040404, #0443F2,#CFCFCF) " : "linear-gradient(to bottom right, #040404, #DC143C,#CFCFCF) "
+
 
   return (
     <SizeContextProvider value={screenSize}>
-      <div className="App">
+      <div className="App" style={{ backgroundImage: backgroundImage }}>
         {screenSize.width > 1200 ? <FullscreenHeader /> : <SmallscreenHeader />}
         <CardList comments={comments} />
       </div>

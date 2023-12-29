@@ -17,7 +17,6 @@ Alto - #CFCFCF
   display: flex;
   flex-direction: row;
   align-items: center;
-  background-image: linear-gradient(to bottom right, #040404, #0443F2,#CFCFCF);
   justify-content: space-evenly;
 }
 

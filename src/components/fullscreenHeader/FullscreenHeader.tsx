@@ -10,7 +10,7 @@ const FullscreenHeader = (props: Props) => {
     return (
         <div className='fullscreen-header-container'>
             <h1 className='fullscreen-header-title'>Welcome to Comments App!</h1>
-            <p>This React application is to practice API calls and creating a responsive website.</p>
+            {/* <p>This React application is to practice API calls and creating a responsive website.</p> */}
             <p>This React application uses the following features:</p>
             <span> - API </span>
             <span> - Responsive web </span>
